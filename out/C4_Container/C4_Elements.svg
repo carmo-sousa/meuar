@@ -1,30 +1,44 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="786px" preserveAspectRatio="none" style="width:680px;height:786px;background:#FFFFFF;" version="1.1" viewBox="0 0 680 786" width="680px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="671" x="2" y="16.708">Diagrama de contêineres do Sistema de Gerenciamento de Ar-condicionado</text><!--MD5=[84dda40acb3410cad7262261daba2aaf]
-cluster c1--><rect fill="#FFFFFF" height="515" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="250" x="210.5" y="265.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="63" x="304" y="292.8047">Sample</text><text fill="#444444" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="308" y="307.7168">[System]</text><!--MD5=[b1e3d2dcb3697de9e6328d1cb436cbc4]
-entity frontend--><rect fill="#438DD5" height="99.1563" style="stroke:#3C7FC0;stroke-width:1.5;" width="218" x="226.5" y="326.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="298.5" y="348.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="151" x="260" y="365.7734">Pagína do cliente</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="58" x="306.5" y="380.6855">[Angular]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="337.5" y="396.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="240.5" y="412.8076">Gerencia todos os produtos</text><!--MD5=[15c40f489603de452f48919ffe83fa0d]
-entity base_dados--><path d="M238,680.9531 C238,670.9531 313.5,670.9531 313.5,670.9531 C313.5,670.9531 389,670.9531 389,680.9531 L389,755.1406 C389,765.1406 313.5,765.1406 313.5,765.1406 C313.5,765.1406 238,765.1406 238,755.1406 L238,680.9531 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M238,680.9531 C238,690.9531 313.5,690.9531 313.5,690.9531 C313.5,690.9531 389,690.9531 389,680.9531 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="276.5" y="706.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="114" x="253.5" y="723.7734">Armazena os</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="131" x="248" y="742.3984">agendamentos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="50" x="288.5" y="757.3105">[MySQL]</text><!--MD5=[4e8ecd94af36cce41665c9f079adf9fd]
-entity backend--><rect fill="#438DD5" height="66.5625" style="stroke:#3C7FC0;stroke-width:1.5;" width="153" x="237" y="514.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="276.5" y="536.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="133" x="247" y="553.7734">Trata os dados</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="27" x="300" y="568.6855">[Go]</text><!--MD5=[4eea9e561cff3d3abdfefda2fadd280b]
-entity cliente--><rect fill="#08427B" height="149.4844" style="stroke:#073B6F;stroke-width:1.5;" width="212" x="229.5" y="27.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="307" y="49.0918">«person»</text><image height="48" width="48" x="311.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="51.9219"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="61" x="305" y="114.7734">Cliente</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="337.5" y="131.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="243.5" y="147.8389">Gerencia o agendamentos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="251.5" y="164.1357">dos seus equipamentos</text><!--MD5=[c9870ed8269450a57d8910a35eff05e5]
-link cliente to frontend--><path d="M335.5,177.0631 C335.5,221.6031 335.5,277.5531 335.5,318.6631 " fill="none" id="cliente-to-frontend" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="335.5,326.6831,338.5,318.6831,332.5,318.6831,335.5,326.6831" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="136" x="336.5" y="219.0918">Requisita os dados</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="56" x="378.5" y="233.0605">dele em</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="382.5" y="247.0293">[HTTPS]</text><!--MD5=[bd606b2753a479dfaff996c7926d0075]
-link frontend to backend--><path d="M329.2,426.1731 C325.89,451.7331 321.88,482.6831 318.74,506.9231 " fill="none" id="frontend-to-backend" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="317.72,514.8731,321.7243,507.3256,315.7741,506.5537,317.72,514.8731" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="129" x="326.5" y="468.0918">Pede os dados via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="82" x="350" y="482.0605">[HTTPS/JSOM]</text><!--MD5=[e060aaf7be69a83eb18bfa6024a5c5a2]
-link backend to base_dados--><path d="M313.5,582.1431 C313.5,605.0131 313.5,636.0831 313.5,662.6331 " fill="none" id="backend-to-base_dados" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="313.5,670.7131,316.5,662.7131,310.5,662.7131,313.5,670.7131" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="129" x="314.5" y="624.0918">Pede os dados via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="82" x="338" y="638.0605">[HTTPS/JSOM]</text><!--MD5=[a7544ba73711b1ac9e9eed8d23684c3b]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="416px" preserveAspectRatio="none" style="width:1367px;height:416px;background:#FFFFFF;" version="1.1" viewBox="0 0 1367 416" width="1367px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="671" x="341.5" y="16.708">Diagrama de contêineres do Sistema de Gerenciamento de Ar-condicionado</text><!--MD5=[697bdb3e0421dfd8b307962503108d7f]
+cluster MeuAr--><rect fill="#FFFFFF" height="225" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="954" x="407" y="27.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="58" x="855" y="54.8047">MeuAr</text><text fill="#444444" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="856.5" y="69.7168">[System]</text><!--MD5=[b1e3d2dcb3697de9e6328d1cb436cbc4]
+entity frontend--><rect fill="#438DD5" height="147.1563" style="stroke:#3C7FC0;stroke-width:1.5;" width="218" x="423" y="89.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="495" y="110.5918">«container»</text><image height="48" width="48" x="508" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACnUlEQVR4Xu1XTWpWQRDM3eYAXiAH8AIewAPoypW4c+HCZXauxJ3gxoVIBCEggUBAUSEhIDyLr6HpdE/VzHvfB7r4ilqE9+b11Nc/NZOT9uTTf8WT+ujf8ihoxKOgEQ8g6MGzz0/fXD4++1ZfbeBegh69vnh7/nMJ+HDxe09lWwQ9fPn17OP3qKNis7IVgkzHr9s/efNl6T5cds/xCRJZozGOBZ2++PLq/fXlj7u8W8Dzd1epdglQhgUzyqgga9Xzq5scuwcshu78tAfLGZJdd1SC0AE5Egfyt+ErpLzuSwXpAiUgN/YVfnd+x7FO0PxvRWfEDydLvOzGsO7bmKDhVDtSN6Bt8woCbFH3bUwQpiYH6AH5qN9Olhtb1G8bEwRPywF68DHGH54qzGZe1wOzzb6gmfaMXYmGiM3EfDKCTX5fEHwlByhAJmyxO5CP20zFsUXdtzFBYA5wH8iBr4QP2cPYp8Mk1R2NVJCO6GaYVnqSXGUXzISaEKQdxROeWtiTpIvOTKgJQeKwjKWpQ+5ahZkxE2pCkMi516XtDCLR34rjNlY8kQpidiKyXcnS7BNaSQWxQ2DmTuNkSRJBqKBurDgdqA4yz+jLuud0LHoiFdR6VhT9XvtCPFXyO25CTQtKW0YzZB3miK2WHCTGqVSCUqB4PmuXMnhd0lHdvSM4laA0I24w3faqYHaV7nSJSlC0IpQA3WBkw1yBI90YQwkTalrQsFG2QZhQ04Lwy/QobQACiplvWlDbnZHiDFkLXSzjQJARssRJOQN8zm5kiVOCjKjgzLQnYBp0jRJXCDJiyuqVowuoZxdnwdWCjPA60e94xf6pGHKjIGO9zEMK+4drknsJavf7fb5zBfcVZETbrupcwcMIOiCPgkY8ChrxL89rtiXB517ZAAAAAElFTkSuQmCC" y="113.4219"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="151" x="456.5" y="176.2734">Pagína do cliente</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="58" x="503" y="191.1855">[Angular]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="534" y="207.0107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="437" y="223.3076">Gerencia todos os produtos</text><!--MD5=[15c40f489603de452f48919ffe83fa0d]
+entity base_dados--><path d="M1194,101.9531 C1194,91.9531 1269.5,91.9531 1269.5,91.9531 C1269.5,91.9531 1345,91.9531 1345,101.9531 L1345,224.1406 C1345,234.1406 1269.5,234.1406 1269.5,234.1406 C1269.5,234.1406 1194,234.1406 1194,224.1406 L1194,101.9531 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M1194,101.9531 C1194,111.9531 1269.5,111.9531 1269.5,111.9531 C1269.5,111.9531 1345,111.9531 1345,101.9531 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="1232.5" y="127.0918">«container»</text><image height="48" width="48" x="1245.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACGklEQVR4Xu2YP0oDQRTGc7c5gBfwAF7AA3gArazEzsLCMp2V2Ak2FiIRhIAEAgFFBUUQ1h/zYJB9u/NespNdiw0fYZl9yf7yzTf/MgmH9/9KE900rEYgSyOQpRHIUjPQ0eXi/esH3c4/uNYF21Mz0OL1e3r3cjB9vpq9VVUFGVg7xw+6sriagaBBcr17+ihYvGbLz/Ob1f7FXH+klJqBgMAV3lML9sBxcr2ESci2hNUMhOTZuh3tnT2JZ8nFgmoFQphEjHS7iFsUAF02WzkgHkm6dXsSKABRU5ApBxSiSWZW6L5a4LrIACJJTEW6vSZqSvlkAPEMwut5En3XNgjWkgEUYo94RhNdVmTc2UBikici9C+VTAr6ll82EGJ2dv50ktSx41xA/HQ6TrdrMSQxyRyYGbmAsMe/5ndMtwuIjvAno6NJLiDnyE/qYpINJKNMt2fUxaT1gGRbomu0NjbJBgqxy2QeIt1cM+h0TU1kzllZkwuIpUr2IaS7ii9PpPz0f+UCIg0wyeLAA8BiqtRlWhTLYSGzr6rJBRRiJsQbsCRJHpNEsq/iGzzrjxdI9mLJfzxzzt1J4pZplRdIi6/2z5YiHJrFc4u+lbQ50LqCBl8l6ZmFqA8ggaji4UnOn5n89QfknLj7AApx2wmTmejQG1CIf2DAZI7N/oBCXE/MLWWvQKL80WoAoBCn2bY5bBigjEYgSyOQpRHI0i9RwF9GQ0QZTAAAAABJRU5ErkJggg==" y="129.9219"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="114" x="1209.5" y="192.7734">Armazena os</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="131" x="1204" y="211.3984">agendamentos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="50" x="1244.5" y="226.3105">[MySQL]</text><!--MD5=[4e8ecd94af36cce41665c9f079adf9fd]
+entity backend--><rect fill="#438DD5" height="133.1875" style="stroke:#3C7FC0;stroke-width:1.5;" width="171" x="832" y="100.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="880.5" y="121.5918">«container»</text><image height="48" width="48" x="893.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACU0lEQVR4Xu2YT0oDMRjFe7fvAL2AB+gFPEAPYFeuxJ0LFy7duRJ3gluRCkJBCgUXooIiCPWRhyEmY743EsYiLY8hTb5JfnmTfPNnZHvXG6VRWfW32gJ5+i9A4/2b6en97GwJHVysIJZjzeTorjxLUW8gcuAIprI1CkAI2z1ZoIwjC4p8IIxNYd7Hlw87h7cQxoNQyIIxMJsgEOPv1eKFp4BPsc0BSnsBjYWpp96kU89sYCSOOJGdYEppQKd8IB7nq1f2XsawEjQIyDwjIoBwurUFYl8YG5dg+fiemkQgHJ/fPtbrdeoTmxDM0xsAcT0CiAQYYB1+qRMRCKxgSptiGSYpNOYCWRjpfP4Uy1QWYMGG7HqlNZhVuQM65QPZd6u5VtK/aIUxWCVkxcDcXxk39mnZcykJiCspKt329A9AuF4cEjSdKSrr5Cf5QEzKZT2bsrEzV1I1A4INlTwLAuZuxKBQWSgtgSrztsBE4npYMyCu0LI+ahJuW+Xuy9QMyOQNUldLILGvusROhgMSbR4OSOxkUKDOhJnJAeKeF++LdQGontKoGlC8O7ZyyEKOqCRPqwNZWImT8MhXNvWVkqvMBaIaOuRqC+RJAhJzWl1iJ1sgT8MBtVxDbnpVJKZ7CaiJQ2InEpDodkXuY2eUCqTcqCvSpyQBmbwCOoXJtAeKrxa/UK97swpkwaSp9+EsE5eObo/pQHxjN+GBJmr29RGHZ5UBnVKB4ucLvqHOwsdNVpJ1HD5n0Q8qVupbzHoBlY9XfMAlIgPKC0qm9g4Npi2Qp40D+gS2qDqwz8w3KwAAAABJRU5ErkJggg==" y="124.4219"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="145" x="842" y="187.2734">API que trata as</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="101" x="867" y="205.8984">requisições</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="27" x="904" y="220.8105">[Go]</text><!--MD5=[4eea9e561cff3d3abdfefda2fadd280b]
+entity cliente--><rect fill="#08427B" height="149.4844" style="stroke:#073B6F;stroke-width:1.5;" width="212" x="7" y="88.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="84.5" y="109.5918">«person»</text><image height="48" width="48" x="89" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="112.4219"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="61" x="82.5" y="175.2734">Cliente</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="115" y="192.042"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="21" y="208.3389">Gerencia o agendamentos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="29" y="224.6357">dos seus equipamentos</text><!--MD5=[f516d59a671ee8a4982901a6a8c80687]
+entity telegram--><rect fill="#1168BD" height="52.5938" style="stroke:#3C7FC0;stroke-width:1.5;" width="102" x="1218.5" y="269.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="1241" y="290.5918">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="82" x="1228.5" y="308.2734">Telegram</text><!--MD5=[d112aecbd7ccc75573a6ee2503a173b3]
+entity email--><rect fill="#1168BD" height="52.5938" style="stroke:#3C7FC0;stroke-width:1.5;" width="77" x="1231" y="357.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="1241" y="378.5918">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="44" x="1247.5" y="396.2734">Email</text><!--MD5=[c9870ed8269450a57d8910a35eff05e5]
+link cliente to frontend--><path d="M219.23,162.9531 C278.8,162.9531 353.42,162.9531 414.73,162.9531 " fill="none" id="cliente-to-frontend" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="422.9,162.9531,414.9,159.9531,414.9,165.9531,422.9,162.9531" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="136" x="250" y="132.0918">Requisita os dados</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="56" x="292" y="146.0605">dele em</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="296" y="160.0293">[HTTPS]</text><!--MD5=[bd606b2753a479dfaff996c7926d0075]
+link frontend to backend--><path d="M641.1,164.0831 C698.64,164.6831 768.67,165.4131 823.71,165.9831 " fill="none" id="frontend-to-backend" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="831.72,166.0731,823.7526,162.9876,823.6883,168.9872,831.72,166.0731" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="129" x="672" y="148.0918">Pede os dados via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="696" y="162.0605">[HTTPS/JSON]</text><!--MD5=[e060aaf7be69a83eb18bfa6024a5c5a2]
+link backend to base_dados--><path d="M1003.23,165.9831 C1058.55,165.3531 1130.45,164.5331 1185.44,163.9031 " fill="none" id="backend-to-base_dados" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1193.77,163.8031,1185.7383,160.889,1185.8026,166.8887,1193.77,163.8031" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="129" x="1034" y="148.0918">Pede os dados via</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="1058" y="162.0605">[HTTPS/JSON]</text><!--MD5=[31032af1d7ada6877080678bf5e6c081]
+link backend to telegram--><path d="M1003.19,204.9231 C1013.19,209.1131 1023.28,213.2131 1033,216.9531 C1092.85,240.0031 1162.64,262.9331 1210.62,278.1031 " fill="none" id="backend-to-telegram" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1218.43,280.5631,1211.6991,275.3006,1209.8984,281.024,1218.43,280.5631" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="71" x="1061" y="186.0918">Envia uma</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="85" x="1056" y="200.0605">menssagem</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="1058" y="214.0293">[HTTPS/JSON]</text><!--MD5=[469252d98cf641ddf13c907b8f5c8278]
+link backend to email--><path d="M965.25,233.7831 C984.12,256.9331 1007.48,281.4431 1033,298.9531 C1092.08,339.4831 1172.7,363.0631 1222.64,374.7131 " fill="none" id="backend-to-email" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1230.69,376.5431,1223.5531,371.8459,1222.2243,377.6969,1230.69,376.5431" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="1046.5" y="282.0918">Envia um email</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="42" x="1077.5" y="296.0605">[SMPT]</text><!--MD5=[eb51f6a827c828f1cd18382ad864fdc7]
 @startuml C4_Elements
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+!include DEVICONS/angular.puml
+!include DEVICONS/mysql.puml
+!include DEVICONS/go.puml
 
-' LAYOUT_LEFT_RIGHT()
+LAYOUT_LEFT_RIGHT()
 
 title Diagrama de contêineres do Sistema de Gerenciamento de Ar-condicionado
 
 Person(cliente, "Cliente", "Gerencia o agendamentos dos seus equipamentos")
 
-System_Boundary(c1, 'Sample') {
-    Container(frontend, "Pagína do cliente", "Angular", "Gerencia todos os produtos")
-    ContainerDb(base_dados, "Armazena os agendamentos", "MySQL")
-    Container(backend, "Trata os dados", "Go")
-
-    Rel(cliente, frontend, "Requisita os dados dele em", "HTTPS")
-    Rel(frontend, backend, "Pede os dados via", "HTTPS/JSOM")
-    Rel(backend, base_dados, "Pede os dados via", "HTTPS/JSOM")
+System_Boundary(MeuAr, 'MeuAr') {
+    Container(frontend, "Pagína do cliente", "Angular", "Gerencia todos os produtos", $sprite="angular")
+    ContainerDb(base_dados, "Armazena os agendamentos", "MySQL", $sprite="mysql")
+    Container(backend, "API que trata as requisições", "Go", $sprite="go")
 }
+
+System(telegram, "Telegram")
+System(email, "Email")
+
+Rel(cliente, frontend, "Requisita os dados dele em", "HTTPS")
+Rel(frontend, backend, "Pede os dados via", "HTTPS/JSON")
+Rel(backend, base_dados, "Pede os dados via", "HTTPS/JSON")
+Rel(backend, telegram, "Envia uma menssagem", "HTTPS/JSON")
+Rel(backend, email, "Envia um email", "SMPT")
 @enduml
 
 @startuml C4_Elements
@@ -542,21 +556,186 @@ skinparam person<<external_container>> {
 
 
 
+sprite $angular [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000016500000000000000000000000
+000000000000000000004AFFFFB500000000000000000000
+0000000000000000039FFFFFFFFFFB500000000000000000
+0000000000000039EFFFFFFEFFFFFFFE9400000000000000
+0000000000028DFFFFFFFFF7AFFFFFFFFFEA400000000000
+0000000016CFFFFFFFFFFFF12FFFFFFFFFFFFE9300000000
+0000000BFFFFFFFFFFFFFF800BFFFFFFFFFFFFFFD0000000
+0000000DFFFFFFFFFFFFFF2003FFFFFFFFFFFFFFD0000000
+0000000BFFFFFFFFFFFFFA0000CFFFFFFFFFFFFFB0000000
+00000009FFFFFFFFFFFFF300004FFFFFFFFFFFFF90000000
+00000007FFFFFFFFFFFFC000000DFFFFFFFFFFFF70000000
+00000005FFFFFFFFFFFF40043006FFFFFFFFFFFF50000000
+00000003FFFFFFFFFFFD000BA000EFFFFFFFFFFF30000000
+00000001FFFFFFFFFFF6002FF2007FFFFFFFFFFF10000000
+00000000FFFFFFFFFFE0008FF9000EFFFFFFFFFF00000000
+00000000EFFFFFFFFF8000EFFF2008FFFFFFFFFD00000000
+00000000CFFFFFFFFF1006FFFF9001FFFFFFFFFB00000000
+00000000AFFFFFFFF9000DFFFFF1009FFFFFFFF900000000
+000000008FFFFFFFF20005555552002FFFFFFFF800000000
+000000006FFFFFFFB00000000000000AFFFFFFF600000000
+000000004FFFFFFF4000000000000002FFFFFFF400000000
+000000002FFFFFFD0005888888888000BFFFFFF200000000
+000000000FFFFFF5000EFFFFFFFFF4004FFFFFF000000000
+000000000EFFFFE0006FFFFFFFFFFB000CFFFFE000000000
+000000000CFFFF7000CFFFFFFFFFFF2005FFFFC000000000
+000000000AFFFF1002FFFFFFFFFFFF9000DFFFA000000000
+0000000008FFFB444AFFFFFFFFFFFFF3338FFF8000000000
+0000000006FFFFFFFFFFFFFFFFFFFFFFFFFFFF6000000000
+0000000003EFFFFFFFFFFFFFFFFFFFFFFFFFFE2000000000
+000000000018FFFFFFFFFFFFFFFFFFFFFFFF800000000000
+00000000000019FFFFFFFFFFFFFFFFFFFF91000000000000
+000000000000003CFFFFFFFFFFFFFFFFB200000000000000
+00000000000000004DFFFFFFFFFFFFC30000000000000000
+0000000000000000005EFFFFFFFFE5000000000000000000
+000000000000000000007FFFFFE700000000000000000000
+00000000000000000000019FF91000000000000000000000
+000000000000000000000002200000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
 
+
+skinparam folderBackgroundColor<<DEV ANGULAR>> White
+sprite $mysql [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+00000006EEB6000000000000000000000000000000000000
+0000000D95AFE61000000000000000000000000000000000
+000000099002AFFC84000000000000000000000000000000
+00000002E2000147CFC40000000000000000000000000000
+000000007C00000003AF9000000000000000000000000000
+000000000E5000000005EC10000000000000000000000000
+0000000005D0000000001CD1000000000000000000000000
+0000000000E40000000000AE200000000000000000000000
+00000000007B00000000000BD10000000000000000000000
+00000000001F100000000000CC0000000000000000000000
+00000000000A9000000000002F9000000000000000000000
+000000000001F2000000000007F300000000000000000000
+00000000000089000000000000DC00000000000000000000
+0000000000007A0000000000004F40000000000000000000
+000000000000960000000000000CC0000000000000000000
+000000000000D300000000000004F4000000000000000000
+000000000000F100000000000000CC000000000000000000
+000000000001F0000000000000004F400000000000000000
+000000000001F002E000000000000CC00000000000000000
+000000000000F209F7000000000003F70000000000000000
+000000000000B50DFF1000000000009F7000000000000000
+0000000000004B2F7D80000000000007EE50000000000000
+0000000000000CFF22E100000000000005DC200000000000
+00000000000001C7004A0000000000000007E50000000000
+0000000000000000000530000000000000002C8000000000
+00000000000000000000000000000000000249F600000000
+0000000000000000000000000000000009FFC95100000000
+0000000000000000000000000000000009F4000000000000
+0000000000000000000000000000000000AF500000000000
+000000000000000000000000000000000006FA0000000000
+0000000000000000000000000000000000003DC000000000
+000000000000000000000000000000000000007B00000000
+000000000000000000000000000000000000000130000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV MYSQL>> White
+sprite $go [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000156677666673000000000000000000
+000000000000000056510000000003640440000000000000
+00000000000555782233200000433314B226300000000000
+000000000063008031000400040000313830700000000000
+0000000000606C13000000304120000408C0700000000000
+0000000000606703BD1000303EF400030170700000000000
+0000000000446103FF2000303BE200020087000000000000
+000000000003A00333000030120000120042000000000000
+00000000000070004100047EC33214300005000000000000
+0000000000006000023323AEB50110000006000000000000
+000000000001500000001100003000000006000000000000
+000000000002400000000356452000000006000000000000
+000000000002300000000034030000000006000000000000
+000000000001400000000036330000000006000000000000
+000000000000500000000000000000000006000000000000
+000000000000600000000000000000000006000000000000
+000000000000600000000000000000000005000000000000
+000000000000600000000000000000000006000000000000
+000000000000600000000000000000000006100000000000
+000000000023700000000000000000000006240000000000
+000000000120600000000000000000000006032000000000
+000000000053800000000000000000000006330000000000
+000000000000600000000000000000000006000000000000
+000000000000600000000000000000000006000000000000
+000000000000600000000000000000000006000000000000
+000000000000500000000000000000000005000000000000
+000000000000500000000000000000000005000000000000
+000000000000500000000000000000000005000000000000
+000000000000500000000000000000000006000000000000
+000000000000400000000000000000000007000000000000
+000000000000500000000000000000000005000000000000
+000000000000600000000000000000000014000000000000
+000000000000610000000000000000000060000000000000
+000000000000070000000000000000000160000000000000
+000000000000034000000000000000000800000000000000
+000000000000007510000000000000014600000000000000
+000000000000021032000000000000670030000000000000
+000000000000042045664221134666113140000000000000
+000000000000043300002345431000001330000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV GO>> White
+
+left to right direction
 
 title Diagrama de contêineres do Sistema de Gerenciamento de Ar-condicionado
 
 rectangle "<$person>\n==Cliente\n\n Gerencia o agendamentos dos seus equipamentos" <<person>> as cliente 
 
-rectangle "==Sample\n<size:12>[System]</size>" <<boundary>> as c1  {
-    rectangle "==Pagína do cliente\n//<size:12>[Angular]</size>//\n\n Gerencia todos os produtos" <<container>> as frontend 
-    database "==Armazena os agendamentos\n//<size:12>[MySQL]</size>//" <<container>> as base_dados 
-    rectangle "==Trata os dados\n//<size:12>[Go]</size>//" <<container>> as backend 
-
-    cliente - ->> frontend : **Requisita os dados dele em**\n//<size:12>[HTTPS]</size>//
-    frontend - ->> backend : **Pede os dados via**\n//<size:12>[HTTPS/JSOM]</size>//
-    backend - ->> base_dados : **Pede os dados via**\n//<size:12>[HTTPS/JSOM]</size>//
+rectangle "==MeuAr\n<size:12>[System]</size>" <<boundary>> as MeuAr  {
+    rectangle "<$angular>\n==Pagína do cliente\n//<size:12>[Angular]</size>//\n\n Gerencia todos os produtos" <<container>> as frontend 
+    database "<$mysql>\n==Armazena os agendamentos\n//<size:12>[MySQL]</size>//" <<container>> as base_dados 
+    rectangle "<$go>\n==API que trata as requisições\n//<size:12>[Go]</size>//" <<container>> as backend 
 }
+
+rectangle "==Telegram" <<system>> as telegram 
+rectangle "==Email" <<system>> as email 
+
+cliente - ->> frontend : **Requisita os dados dele em**\n//<size:12>[HTTPS]</size>//
+frontend - ->> backend : **Pede os dados via**\n//<size:12>[HTTPS/JSON]</size>//
+backend - ->> base_dados : **Pede os dados via**\n//<size:12>[HTTPS/JSON]</size>//
+backend - ->> telegram : **Envia uma menssagem**\n//<size:12>[HTTPS/JSON]</size>//
+backend - ->> email : **Envia um email**\n//<size:12>[SMPT]</size>//
 @enduml
 
 PlantUML version 1.2021.14(Fri Nov 12 12:46:50 AMT 2021)
