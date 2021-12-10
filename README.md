@@ -8,4 +8,4 @@ Sistema que visa facilitar a manutenção e limpeza do seu ar-condicionado.
 
 ## Modelo C4 do sistema
 
-![Modelo C4](out/C4_Container/C4_Elements.svg)
+![Modelo C4](out/C4_Container/C4_Elements.png)
