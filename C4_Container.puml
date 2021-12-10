@@ -1,0 +1,19 @@
+@startuml C4_Elements
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+' LAYOUT_LEFT_RIGHT()
+
+title Diagrama de contêineres do Sistema de Gerenciamento de Ar-condicionado
+
+Person(cliente, "Cliente", "Gerencia o agendamentos dos seus equipamentos")
+
+System_Boundary(c1, 'Sample') {
+    Container(frontend, "Pagína do cliente", "Angular", "Gerencia todos os produtos")
+    ContainerDb(base_dados, "Armazena os agendamentos", "MySQL")
+    Container(backend, "Trata os dados", "Go")
+
+    Rel(cliente, frontend, "Requisita os dados dele em", "HTTPS")
+    Rel(frontend, backend, "Pede os dados via", "HTTPS/JSOM")
+    Rel(backend, base_dados, "Pede os dados via", "HTTPS/JSOM")
+}
+@enduml
